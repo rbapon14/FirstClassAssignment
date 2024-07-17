@@ -1,0 +1,212 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info img {
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+
+.contact-info span {
+    margin-right: 20px;
+    color: #333;
+}
+
+.navbar {
+    background-color: #66dac7;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.auth-search {
+    display: flex;
+    align-items: center;
+}
+
+.auth-search a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.auth-search img {
+    width: 16px;
+    height: 16px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #e0f7f4;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: #007f73;
+}
+
+.hero-content p {
+    color: #555;
+    line-height: 1.5;
+}
+
+.hero-content button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    max-width: 100%;
+}
+
+.hero-image1 img {
+    max-width: 80%;
+    margin-left: auto;
+    margin-top: 25;
+}
+
+.appointment {
+    padding: 40px 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.appointment h2 {
+    font-size: 28px;
+    color: #007f73;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.appointment-container {
+    padding: 20px;
+}
+
+.book-text {
+    color: #000;
+    position: relative;
+    margin-right: 5px;
+}
+
+.book-text::before {
+    content: '';
+    position: absolute;
+    top: 35px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #007f73;
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #007f73;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    grid-column: span 2;
+    background-color: #007f73;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navigation-buttons .prev-button,
+.navigation-buttons .next-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hero2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.submit-btn {
+    grid-column: span 2;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    align-self: start;
+    width: fit-content;
+    padding: 5px 10px; /* Making the button smaller */
+}
